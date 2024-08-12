@@ -7,3 +7,5 @@ b = 2.31 # Floating point number
 c = "Robinn" # String
 
 d = False # Boolean
+
+e = None # None - Nothing stored in here
