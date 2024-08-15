@@ -6,6 +6,9 @@ marksList = {
     "Ankur" : 95,
     "Tushar" : 34
 }
+
+emptyDict = {}
+
 print(f"The type of marks list is {type(marksList)} & it's Key-Value is {marksList}")
 
 print(f"Yash & Abhay having mark are \'{marksList['Yash']}\' & \'{marksList['Abhay']}\' respectively...")
