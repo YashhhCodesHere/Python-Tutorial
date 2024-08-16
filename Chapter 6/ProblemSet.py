@@ -83,3 +83,13 @@ elif(mark>100 and mark<0):
     print("Invalid marks entered!")
 else:
     print("Enter your marks carefully!")
+
+# 7.
+
+post = input("Type the post here: ")
+
+if("Robinn" in post):
+    print("This post is talking about 'Robinn'!")
+else:
+    print("Robinn isn't mentioned anywhere in this post!")
+
