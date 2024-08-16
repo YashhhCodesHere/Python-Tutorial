@@ -88,7 +88,7 @@ else:
 
 post = input("Type the post here: ")
 
-if("Robinn" in post):
+if("Robinn".lower in post.lower):   # After making all the character in lower case, It will Match both of them...
     print("This post is talking about 'Robinn'!")
 else:
     print("Robinn isn't mentioned anywhere in this post!")
