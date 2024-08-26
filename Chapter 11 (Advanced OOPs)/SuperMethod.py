@@ -19,3 +19,19 @@ child = Child()
 
 
 # Super method is used to call the constructor of the parent class to the child class. 
+
+
+
+# Ex of Function of super method:-
+
+class Parent:
+    def __init__(self):
+        print("Parent class initialized")
+
+class Child(Parent):
+    def __init__(self):
+        super().__init__()  # Calls the constructor of the Parent class
+        print("Child class initialized")
+
+# Creating an instance of Child
+child_instance = Child()
