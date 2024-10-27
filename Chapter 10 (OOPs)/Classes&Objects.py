@@ -7,6 +7,7 @@ class Students:
 Harsh = Students() # Creating an object of the class Students
 
 Harsh.programming_language = "C++" # Here we changed class attribute to instance attribute (Property of the particular object or instance)
+# Although by default it will take the class attribute value if we don't assign any value to the instance attribute
 
 print(f"Language used: '{Harsh.programming_language}', Salary: {Harsh.salary}") # Accessing the attributes of the class Students
 
